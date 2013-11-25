@@ -1,0 +1,138 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    border: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+div#container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+div.floater{
+    position: absolute;
+    top: 50%;
+    height: 275px;
+    margin-top: -137.5px;
+}
+
+header.header{
+    margin: 0 auto;
+    width: 600px;
+    height: 120px;
+    border: none;
+}
+
+header.header>div.himg{
+    width: 100px;
+    background-color: blue;
+    float: left;
+    margin-left: 20px;
+    display: inline;
+}
+
+header.header div#hi1{
+    height: 100px;
+    background: url(../img/headingMenu-0-0.png) no-repeat;
+}
+
+header.header div#hi2{
+    height: 100px;
+    background: url(../img/headingMenu-1-0.png) no-repeat;
+}
+
+header.header div#hi3{
+    height: 110px;
+    background: url(../img/headingMenu-2-0.png) no-repeat;
+    margin-top: -12px;
+}
+
+header.header div#hi4{
+    height: 100px;
+    background: url(../img/headingMenu-3-0.png) no-repeat;
+}
+
+header.header div#hi5{
+    height: 100px;
+    background: url(../img/headingMenu-4-0.png) no-repeat;
+}
+
+header.header > div#himgCont{
+    /*BLUR*/
+.blur img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.blur img:hover {
+  -webkit-filter: blur(5px);
+}
+}
+
+
+article.article > div#smile{
+    height: 50px;
+    width: 184px;
+    background: transparent url(../img/sveZaVasOsmjeh.png) no-repeat;
+    margin: 0 auto;
+}
+
+article.article > div#logo{
+    height: 115px;
+    width: 376px;
+    background: transparent url(../img/mainLogo.png) no-repeat;
+    margin: 0 auto;
+}
+
+footer{
+  text-align: center;
+}
+
+.cont {
+  display: none;
+}
+
+.show{
+  display: inline;
+}
+
+#power:active{
+  height: 20px;
+  width: 20px;
+  background: transparent url(../img/pb_activated_s.png) no-repeat;
+}
+
+#power:hover{
+  height: 20px;
+  width: 20px;
+  background: transparent url(../img/pb_hover_s.png) no-repeat;
+}
+
+#power:visited{
+  height: 20px;
+  width: 20px;
+  background: transparent url(../img/pb_still_s.png) no-repeat;
+}
+
+#power{
+  height: 20px;
+  width: 20px;
+  background: transparent url(../img/pb_still_s.png) no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: #c9001d;
+}
